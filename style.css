@@ -17,6 +17,19 @@ button {
     background-color: transparent;
     border: none;
 }
+.title {
+    color: #363940;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 43px; /* 134.375% */
+}
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    color:  #95A1BB;
+}
+
  /* HEADER */
 .header {
     padding: 14px 0;
@@ -40,11 +53,7 @@ button {
     color: #363940;
     margin-bottom: 30px;
 }
-.text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px; /* 137.5% */
-    color:  #95A1BB;
+.main .text {    
     margin-bottom: 40px;
 }
 .button {
@@ -67,11 +76,7 @@ button {
     background: #F9FAFC;
     padding: 100px 0;
 }
-.title {
-    color: #363940;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 43px; /* 134.375% */
+.rate-section .title {
     margin-bottom: 20px;
 }
 .table {
@@ -127,3 +132,47 @@ td {
 .table-footer td {
     padding: 30px 0;
 }
+
+/* CREATE account SECTION */
+.create-account-section {
+    padding: 100px 0;
+}
+.create-account-section .title {
+    margin-bottom: 50px;
+}
+.create-account-section .text{
+    width: 500px;
+    margin-bottom: 50px;
+}
+.list {
+    list-style-image: url('./assets/images/Check.png');
+}
+.list-item {    
+    color: #363940;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+input,
+select,
+fieldset,
+textarea {
+    border-radius: 4px;
+    border: 1px solid #95A1BB;
+    padding: 14px 15px;
+}
+input,
+select,
+fieldset,
+textarea,
+label,
+legend,
+input::placeholder.
+select::placeholder,
+textarea::placeholder {
+    color: #95A1BB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    font-family: inherit;
+ }
