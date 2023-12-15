@@ -17,3 +17,46 @@ button {
     background-color: transparent;
     border: none;
 }
+ /* HEADER */
+.header {
+    padding: 14px 0;
+    background-color: #0A61F7;
+}
+.menu-link {
+    color: #FFF;     
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+/* SECTION MAIN */
+
+.main-title {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68px; /* 117.241% */
+    color: #363940;
+    margin-bottom: 30px;
+}
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    color:  #95A1BB;
+    margin-bottom: 40px;
+}
+.button {
+    width: 152px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #0A61F7;
+
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px; /* 140% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
