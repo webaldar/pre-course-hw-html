@@ -167,7 +167,7 @@ fieldset,
 textarea,
 label,
 legend,
-input::placeholder.
+input::placeholder,
 select::placeholder,
 textarea::placeholder {
     color: #95A1BB;
@@ -176,3 +176,55 @@ textarea::placeholder {
     line-height: 22.4px; /* 140% */
     font-family: inherit;
  }
+input[type='text']{
+    width: 480px;
+    height: 50px;    
+}
+input[type="email"], 
+input[type="password"],
+input[type="date"],
+select
+{
+    width: 230px;
+    height: 50px;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+input[type="date"] {
+    background-image: url(./assets/images/Calendar.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+}
+select {
+    appearance: none;
+    background-image: url(./assets/images/Arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+}
+fieldset {
+    width: 100%;
+    padding: 30px 20px;
+}
+textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+}
+form .button {
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #0A61F7;
+}
+.footer span {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
