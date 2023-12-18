@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: Rubik, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.title {
+    color: #363940;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 43px; /* 134.375% */
+}
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    color:  #95A1BB;
+}
+
+ /* HEADER */
+.header {
+    padding: 14px 0;
+    background-color: #0A61F7;
+}
+.menu-link {
+    color: #FFF;     
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+/* SECTION MAIN */
+
+.main-title {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68px; /* 117.241% */
+    color: #363940;
+    margin-bottom: 30px;
+}
+.main .text {    
+    margin-bottom: 40px;
+}
+.button {
+    width: 152px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #0A61F7;
+
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px; /* 140% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+/* RATE-SECTION */
+
+.rate-section {
+    background: #F9FAFC;
+    padding: 100px 0;
+}
+.rate-section .title {
+    margin-bottom: 20px;
+}
+.table {
+    border-collapse: collapse;
+}
+th,
+td {
+    border: 1px solid #95A1BB;
+    width: 240px;
+    padding: 15px 0;
+    text-align: center;
+}
+.table-title {
+    color: #363940;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px; /* 122.222% */
+}
+.table-subtitle {
+    color: #363940;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    text-align: left;
+    padding-left: 20px;
+}
+.table-subtitle.gray {
+    color: #95A1BB;
+}
+.table-link {
+    color: #0A61F7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+.table-button {
+    width: 140px;
+    padding: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #0A61F7;
+
+    color: #0A61F7;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.6px; /* 163.333% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.table-button.active {
+    background-color: #0A61F7;
+    color: #FFF;
+}
+.table-footer td {
+    padding: 30px 0;
+}
+
+/* CREATE account SECTION */
+.create-account-section {
+    padding: 100px 0;
+}
+.create-account-section .title {
+    margin-bottom: 50px;
+}
+.create-account-section .text{
+    width: 500px;
+    margin-bottom: 50px;
+}
+.list {
+    list-style-image: url('./assets/images/Check.png');
+}
+.list-item {    
+    color: #363940;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+input,
+select,
+fieldset,
+textarea {
+    border-radius: 4px;
+    border: 1px solid #95A1BB;
+    padding: 14px 15px;
+}
+input,
+select,
+fieldset,
+textarea,
+label,
+legend,
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    color: #95A1BB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    font-family: inherit;
+ }
+input[type='text']{
+    width: 480px;
+    height: 50px;    
+}
+input[type="email"], 
+input[type="password"],
+input[type="date"],
+select
+{
+    width: 230px;
+    height: 50px;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+input[type="date"] {
+    background-image: url(./assets/images/Calendar.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+}
+select {
+    appearance: none;
+    background-image: url(./assets/images/Arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+}
+fieldset {
+    width: 100%;
+    padding: 30px 20px;
+}
+textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+}
+form .button {
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #0A61F7;
+}
+.footer span {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
